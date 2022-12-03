@@ -1,6 +1,10 @@
 package gomath
 
 //luas
-func Luast(panjang int, lebar int) int {
+func Luas(panjang int, lebar int) int {
 	return panjang * lebar
+}
+
+func Persen(persen int, angka int) int {
+	return persen / 100 * angka
 }
